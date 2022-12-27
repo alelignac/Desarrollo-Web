@@ -14,4 +14,5 @@ V1.3 - 27-12-2022
 * Se agrega intervalo de movimiento en imagenes de header (carousel)
 * Se agregan textos alternativos faltantes
 
-
+V1.4 - 27-12-2022
+* Modificaciones Padding H1 y H2
