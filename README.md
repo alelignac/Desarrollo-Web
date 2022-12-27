@@ -7,4 +7,11 @@ V1.1 - 27-12-2022
 
 V1.2 - 27-12-2022
 * Se incorpora Grilla con BS en html productos.
-* Se realiza correccion de primer entrega en formulario de contacto
+* Se realiza correccion de primer entrega en formulario de contacto.
+
+V1.3 - 27-12-2022
+* Se corrije accesos dado que fallaban los quicklinks por ser case sensitive.
+* Se agrega intervalo de movimiento en imagenes de header (carousel)
+* Se agregan textos alternativos faltantes
+
+
