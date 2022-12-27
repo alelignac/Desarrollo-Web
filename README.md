@@ -16,3 +16,6 @@ V1.3 - 27-12-2022
 
 V1.4 - 27-12-2022
 * Modificaciones Padding H1 y H2
+
+V1.5 - 27-12-2022
+* Modificaciones textos
