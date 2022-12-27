@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NaturalWorld - Tu mundo en natural</title>
+    <link rel="shortcut icon" href="../img/Iconos/Favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> 
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg box-header" id="botonera">
+        <div class="container">
+          <a class="navbar-brand animate__heartBeat" href="../index.html">
+            <img src="../img/Iconos/Logo.svg" alt="Tu Mundo en Natural Imagen">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <svg viewBox="0 0 100 80" width="40" height="40">
+                <rect width="100" height="5"></rect>
+                <rect y="30" width="100" height="5"></rect>
+                <rect y="60" width="100" height="5"></rect>
+            </svg>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../Pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Pages/productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Pages/recetas.html">Recetas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Pages/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+     <header class="bg-masamadre"> </header>
+    <main >
+        <h1 class="h-color text-center texto">Contacto</h1>
+        <section id="form" class="j-content-center">
+           <form action="CREAR_ARCHIVO_ENVIO" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre"> <br>
+                <label for="tel">Telefono:</label>
+                <input type="tel" id="tel"> <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email"> <br>
+                <label for="mensaje">Deja tu mensaje</label> <br>
+                <textarea name="" id="mensaje" cols="40" rows="10"></textarea> <br>
+                <input type="reset" value="Cancelar">
+                <input type="submit" value="Enviar">
+            </form> 
+        </section>
+        <section>
+            <h1 class="h-color text-center texto">Donde estamos</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.9893677236805!2d-58.39450468474582!3d-34.6044303650429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac198206de7%3A0x31a4c79ffb528624!2sAv.%20Corrientes%20%26%20Av.%20Callao%2C%20C1042%20CABA!5e0!3m2!1ses-419!2sar!4v1669079291128!5m2!1ses-419!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+
+    <footer class="box-footer">
+        <div class="container">
+            <div class="texto-redes">
+                <h3>Visitanos</h3>
+                    <ul class="sci">
+                        <li><a href="https://twitter.com/home" target="_blank">
+                                <img class="img-footer" src="../img/Iconos/twitter-icono.svg" alt="Visitanos en Twitter">
+                            </a>
+                        </li>
+                        <li>    
+                            <a href="https://facebook.com" target="_blank">
+                                <img class="img-footer" src="../img/Iconos/facebook.svg" alt="Seguinos en Facebook">
+                            </a>
+                        </li>
+                        <li>    
+                            <a href="https://instagram.com" target="_blank">
+                                <img class="img-footer" src="../img/Iconos/instagram.svg" alt="Seguinos en Instagram">
+                            </a>
+                        </li>
+                    </ul>
+            </div>
+            <div class="quicklinks">
+                <h3>Acceso Rapido</h3>
+                <li><a href="../pages/productos.html">Productos</a></li>
+                <li><a href="../pages/contacto.html">Contacto</a></li>
+                <li><a href="../pages/recetas.html">Recetas</a></li>
+                <li><a href="../pages/nosotros.html">Nosotros</a></li>
+                <li><a href="../index.html">Inicio</a></li>
+            </div>
+        </div>
+    </footer>
+    <div class="CopyRightText">
+        <p>Copyright © 2022 Alejandro Lignac. Todos los derechos reservados.</p>
+    </div>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

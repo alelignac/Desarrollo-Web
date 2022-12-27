@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto:wght@300&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Definimos Grid */
+body{
+	min-height: 100vh;
+	display: grid;
+}
+/* ==================== *
+
+/* Footer */
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 10px 100px;
+    background-color: rgb(249, 189, 166);
+}
+    .container{
+        width: 100%;
+        display:grid;
+        grid-template-columns: 1fr 1fr 3fr;
+        grid-gap: 20px;
+        ;
+    }
+
+.sci{
+    margin-top: -10px;
+    display: grid;
+    grid-template-columns: repeat(3,50px);
+    padding-left: 0;
+}
+    .sci li{
+        list-style: none;
+    }
+        .sci li a{
+            display: inline-block;
+            display: grid;
+            align-content: center;
+            justify-content:center;
+            width: 48px;
+            height: 48px;
+            grid-gap: 20px;
+            text-decoration: none;
+            border-radius: 4px;
+            
+        }
+            .sci li a:hover{
+                background:rgb(230, 116, 116)
+            }
+.quicklinks{
+    position: relative;
+    justify-content: left;
+    align-content: left;
+}
+    .quicklinks li{
+        list-style: none;
+    }
+        .quicklinks li a{
+            color:lightslategray;
+            text-decoration: none;
+            display: inline-block;
+            margin-bottom: 10px;
+            display: grid;
+            grid-gap: 10px;
+        }
+            .quicklinks li a:hover{
+                background:rgb(230, 116, 116)
+            }
+
+.box-footer {
+    background: linear-gradient( #f8f9f9,#dd9a56);  
+    color: white;
+}
+/* ====================
+
+/* Tamaño imagenes SVG Footer */
+.img-footer{
+    height: 30px;
+    width: 30px;
+}
+/* ====================
+
+/* Color y Padding H3 */
+h3{
+    color:rgb(108, 61, 25);
+    padding-bottom: 5px;
+    line-height: 3em;
+}
+/* ====================
+
+/* Fondo y Header */
+.box-header {
+    background: linear-gradient(#dd9a56, #f8f9f9);  
+    color: white;
+}
+
+/*.bg-fondo{
+background: #f2f2f2;
+}*/
+
+.bg-masamadre{
+    margin-top: 60px;
+    background-image: url(../img/Header/masamadre.png);
+    background-repeat: no-repeat;
+    background-position:center top;
+}
+header{
+    height: 400px;
+}
+.h-color{
+    color:rgb(249, 189, 166);
+}
+/* ====================*/
+
+/* NavBar */
+#botonera{
+    background-color: rgb(249, 189, 166);
+}
+
+    #botonera ul li a{
+        color:lightslategray;
+        font-size: 1.2em;
+		background-image: linear-gradient(currentColor, currentColor);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: background-size .3s;
+    }
+
+    #botonera ul li a:hover{
+        color: rgb(230, 116, 116);
+		font-weight: 600;
+		background-size: 100% 2px;
+    }
+
+    #botonera img{
+        width:150px;
+    }
+
+    #botonera svg{
+        fill: rgb(113, 120, 120);
+    }
+/* ====================*/
+
+p{
+    color:lightslategrey;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    line-height: 3em;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.text-center{
+    text-align: center;
+}
+nav{
+    padding: 10px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky
+}
+/* Nav */
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+    nav ul li{
+        margin-right: 10px;
+    }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+            font-size: 1.3em;
+        }
+            nav ul li a:hover{
+                color: rgb(230, 116, 116);
+            }
+
+/* ====================*/
+
+/* H1 y Parrafos */
+section.texto h1{
+    margin-bottom: 40px;
+    font-size: 2.8em;
+}
+section.texto p{
+    line-height: 1.8em;
+    font-size: 1.2em;
+}
+/* ==================== */
+
+.j-content-space{
+    justify-content: space-between;
+}
+
+.j-content-center{
+    justify-content: center;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.h-font{
+    font-size:70px
+}
+
+.margin20{
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
+.padding5{
+    padding-top: 5rem;
+}
+
+.padding3{
+    padding-top: 3rem;
+}
+
+.width-text{
+    max-width: 30rem;
+}
+
+.text-color-grey{
+    color:lightslategrey;
+}
