@@ -243,6 +243,10 @@ section.texto p{
     max-width: 30rem;
 }
 
+.with-text-parrafo{
+    max-width: fit-content;
+}
+
 .text-color-grey{
     color:lightslategrey;
 }
