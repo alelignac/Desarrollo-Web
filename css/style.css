@@ -18,17 +18,16 @@ body{
 /* Footer */
 footer{
     position: relative;
-    width: 100%;
+    width: 99%;
     height: auto;
-    padding: 10px 100px;
     background-color: rgb(249, 189, 166);
+    text-align: center;
 }
     .container{
-        width: 100%;
+        width: 99%;
         display:grid;
-        grid-template-columns: 1fr 1fr 3fr;
+        grid-template-columns: 0.1fr 0.1fr;
         grid-gap: 20px;
-        ;
     }
 
 .sci{
@@ -59,6 +58,7 @@ footer{
     position: relative;
     justify-content: left;
     align-content: left;
+    text-align: center;
 }
     .quicklinks li{
         list-style: none;
@@ -104,12 +104,7 @@ h3{
 
 /* ====================*/
 
-.bg-masamadre{
-    margin-top: 60px;
-    background-image: url(../img/Header/masamadre.png);
-    background-repeat: no-repeat;
-    background-position:center top;
-}
+
 header{
     height: 400px;
 }
@@ -128,7 +123,7 @@ header{
         color:lightslategray;
         font-size: 1.2em;
 		background-image: linear-gradient(currentColor, currentColor);
-        background-position: 0% 100%;
+        background-position: 0% 99%;
         background-repeat: no-repeat;
         background-size: 0% 2px;
         transition: background-size .4s;
@@ -241,10 +236,6 @@ section.texto p{
 
 .width-text{
     max-width: 30rem;
-}
-
-.with-text-parrafo{
-    max-width: fit-content;
 }
 
 .text-color-grey{
