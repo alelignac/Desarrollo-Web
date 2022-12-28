@@ -23,3 +23,7 @@ V1.5 - 27-12-2022
 V1.6 - 27.12-2022
 * Modificacion posicion elementos de footer
 * Cambio ancho columnas grid footer
+
+V1.7 - 27-12-2022
+
+Modificaciones Padding titulos 
