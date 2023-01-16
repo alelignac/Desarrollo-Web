@@ -4,7 +4,7 @@
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing:border-box;
 
 }
 
@@ -18,7 +18,7 @@ body{
 /* Footer */
 footer{
     position: relative;
-    width: 99%;
+    width: 100%;
     height: auto;
     background-color: rgb(249, 189, 166);
     text-align: center;
@@ -86,6 +86,12 @@ footer{
     height: 30px;
     width: 30px;
 }
+
+.img-carousel{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
 /* ====================
 
 /* Color y Padding H3 */
@@ -106,7 +112,7 @@ h3{
 
 
 header{
-    height: 400px;
+    height: 200px;
 }
 .h-color{
     color:rgb(249, 189, 166);
@@ -232,6 +238,15 @@ section.texto p{
 
 .padding3{
     padding-top: 3rem;
+}
+
+.padding-lateral{
+    padding-left: 10vh;
+    padding-right: 10vh;
+}
+
+.padding-bottom5{
+    padding-bottom: 10vh;
 }
 
 .width-text{
