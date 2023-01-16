@@ -1,0 +1,26 @@
+{
+  "name": "natural_world_coderhouse",
+  "version": "1.0.0",
+  "description": "V1.1 - 27-12-2022 * En esta version se agrego Bootstrap para la NAV y Carousel del header. * Adicionalmente, se agrego Grid para Footer. * Se realizaron correcciones de primer entrega (Inicio en menu de navegacion, idioma en HTML (Resta una modificacion sobre form de contacto que se realizara en proxima version).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+		"sass:watch": "sass --watch scss/main.scss  css/main.css"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alelignac/tercera_entrega..github.io.git"
+  },
+  "author": "Alejandro Lignac",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alelignac/tercera_entrega..github.io/issues"
+  },
+  "homepage": "https://github.com/alelignac/tercera_entrega..github.io#readme",
+  "dependencies": {
+    "sass": "^1.57.1"
+    
+  }
+}
