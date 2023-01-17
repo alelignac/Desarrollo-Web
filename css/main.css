@@ -125,7 +125,7 @@ nav ul li a:hover {
   fill: rgb(230, 116, 116);
 }
 
-.btn-more, .btn-green, .btn-red {
+.btn-more, .btn-orange, .btn-green, .btn-red {
   width: 130px;
   height: 40px;
   display: flex;
@@ -148,6 +148,13 @@ nav ul li a:hover {
 }
 .btn-green:hover {
   background: rgb(79, 255, 20);
+}
+
+.btn-orange {
+  background: linear-gradient(to top, rgb(250, 210, 161), rgb(247, 166, 37));
+}
+.btn-orange:hover {
+  background: #ff9514;
 }
 
 footer {

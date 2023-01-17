@@ -23,3 +23,10 @@
         background: rgb(79, 255, 20);
     }
 }
+.btn-orange{
+    @extend .btn-more;
+    background: linear-gradient(to top, rgb(250, 210, 161), rgb(247, 166, 37));
+    &:hover{
+        background: #ff9514;
+    }
+}
