@@ -1,0 +1,46 @@
+nav{
+    padding: 10px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    ul{
+        display: flex;
+        list-style: none;
+        li{
+            margin-right: 10px;
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 1.3em;
+                &:hover{
+                    color: rgb(230, 116, 116);
+                }
+            }
+        }
+    }
+}
+
+#botonera{
+    background-color: rgb(249, 189, 166);
+    ul li a{
+        color:lightslategray;
+        font-size: 1.2em;
+		background-image: linear-gradient(currentColor, currentColor);
+        background-position: 0% 99%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: background-size .4s;
+        &:hover{
+            color: rgb(230, 116, 116);
+            font-weight: 600;
+            background-size: 100% 2px;
+        }
+    }
+    img{
+        width: 75px;
+    }
+    svg{
+        fill: rgb(230, 116, 116);
+    }
+}

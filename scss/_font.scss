@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto:wght@300&display=swap');
+
+/* H1 y Parrafos */
+section.texto h1{
+    margin-bottom: 40px;
+    font-size: 2.8em;
+}
+section.texto p{
+    line-height: 1.8em;
+    font-size: 1.2em;
+}
+/* ==================== */
+
+.j-content-space{
+    justify-content: space-between;
+}
+
+.j-content-center{
+    justify-content: center;
+}
+
+.h-font{
+    font-size:70px
+}
+
+.width-text{
+    max-width: 30rem;
+}
+
+.text-color-grey{
+    color:lightslategrey;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.text-center{
+    text-align: center;
+}
+
+p{
+    color:lightslategrey;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    line-height: 3em;
+}
+
+/* Color y Padding H3 */
+h3{
+    color:rgb(108, 61, 25);
+    padding-bottom: 5px;
+    line-height: 3em;
+}

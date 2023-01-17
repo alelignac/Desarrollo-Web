@@ -6,9 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass",
-		"sass:watch": "sass --watch scss/main.scss  css/main.css"
+    "sass:watch": "sass --watch scss/main.scss  css/main.css"
   },
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alelignac/tercera_entrega..github.io.git"
@@ -21,6 +20,6 @@
   "homepage": "https://github.com/alelignac/tercera_entrega..github.io#readme",
   "dependencies": {
     "sass": "^1.57.1"
-    
-  }
+  },
+  "devDependencies": {}
 }

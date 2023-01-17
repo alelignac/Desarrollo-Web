@@ -1,0 +1,72 @@
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: rgb(249, 189, 166);
+    text-align: center;
+}
+.container{
+    width: 99%;
+    display: grid;
+    grid-template-columns: 0.1fr 0.1fr;
+    grid-gap: 20px;
+}
+
+.box-footer{
+    background: linear-gradient( #f8f9f9,#dd9a56);  
+    color: white;
+}
+
+.sci{
+    margin-top: -10px;
+    display: grid;
+    grid-template-columns: repeat(3,50px);
+    padding-left: 0;
+    li{
+        list-style: none;
+        .a{
+            display: inline-block;
+            display: grid;
+            align-content: center;
+            justify-content:center;
+            width: 48px;
+            height: 48px;
+            grid-gap: 20px;
+            text-decoration: none;
+            border-radius: 4px;
+            &:hover{
+                background:rgb(230, 116, 116)
+            }
+        }
+    }
+}
+
+.quicklinks{
+    position: relative;
+    justify-content: left;
+    align-content: left;
+    text-align: center;
+    li{
+        list-style: none;
+        a{
+            color:lightslategray;
+            text-decoration: none;
+            display: inline-block;
+            margin-bottom: 10px;
+            display: grid;
+            grid-gap: 10px;
+            &:hover{background:rgb(230, 116, 116)}
+        }
+    }
+}
+
+.box-footer {
+    background: linear-gradient( #f8f9f9,#dd9a56);  
+    color: white;
+}
+
+/* Tamaño imagenes SVG Footer */
+.img-footer{
+    height: 30px;
+    width: 30px;
+}

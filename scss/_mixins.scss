@@ -1,0 +1,25 @@
+.btn-more{
+    width: 130px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: black;
+    border-radius: 4px;
+    }
+
+.btn-red{
+    @extend .btn-more;
+    background: linear-gradient(to top, rgb(255, 185, 185), rgb(255, 130, 130));
+    &:hover{
+        background: rgb(244, 77, 77);
+    }
+}
+.btn-green{
+    @extend .btn-more;
+    background: linear-gradient(to top, rgb(214, 251, 196), rgb(164, 249, 136));
+    &:hover{
+        background: rgb(79, 255, 20);
+    }
+}
