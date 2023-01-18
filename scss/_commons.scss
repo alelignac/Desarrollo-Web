@@ -12,12 +12,10 @@ body{
 }
 
 header{
-    //height: 200px;
     height: $HeaderHeight;
 }
 
-.box-header {
-    //background: linear-gradient(#dd9a56, #f8f9f9); 
+.box-header { 
     background: $BoxColor; 
     color: white;
 }
@@ -35,8 +33,7 @@ header{
     margin-right: 20rem;
 }
 
-
-.carousel-item {
+.carousel-item{
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
