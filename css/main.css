@@ -163,17 +163,17 @@ nav ul li a:hover {
 }
 
 /* FONT SIZE PAGINA 404 */
-.font-size-404, .font-size-404-20, .font-size-404-40, .font-size-404-80 {
+.font-size-404, .font-size-404-20, .font-size-404-40, .font-size-404-60 {
   font-family: "Arvo", serif;
   text-align: justify;
   text-justify: auto;
   color: #914d15;
 }
 
-.font-size-404-80 {
+.font-size-404-60 {
   color: #f1a82a;
   margin-top: 5vh;
-  font-size: 80px;
+  font-size: 60px;
 }
 
 .font-size-404-40 {
