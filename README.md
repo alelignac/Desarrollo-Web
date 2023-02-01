@@ -1,7 +1,6 @@
-# Entrega Final
-# Trabajo Desarrollo Web.
-# Alumno: Alejandro Lignac
-# Año: 2023
+# Entrega Final. Trabajo Desarrollo Web
+# Alumno: Alejandro Lignac, año 2023
+
 
 El realizar este trabajo, en lo personal fue un desafio inmenso.
 Comence el curso sin conocimientos previos de desarrollo web, y fui avanzando dia a dia hasta lograr hoy finalizar el curso.
