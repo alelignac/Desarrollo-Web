@@ -1,3 +1,10 @@
+/* COMMON */
+/* 404 PAGE */
+/* NAV */
+/* BOTONES */
+/* FOOTER */
+/* FONTS */
+/* NORMALIZAR */
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto:wght@300&display=swap");
 * {
   font-family: "Roboto", sans-serif;
@@ -61,6 +68,7 @@ header {
   }
 }
 
+/* NAV */
 nav {
   padding: 10px 35px;
   display: flex;
@@ -84,6 +92,7 @@ nav ul li a:hover {
   color: rgb(230, 116, 116);
 }
 
+/* BOTONERA */
 #botonera {
   background-color: rgb(249, 189, 166);
 }
@@ -98,7 +107,7 @@ nav ul li a:hover {
 }
 #botonera ul li a:hover {
   color: rgb(230, 116, 116);
-  font-weight: 600;
+  font-weight: 2;
   background-size: 100% 2px;
 }
 #botonera img {
@@ -108,6 +117,7 @@ nav ul li a:hover {
   fill: rgb(230, 116, 116);
 }
 
+/* BOTONES */
 .btn-more, .btn-blue, .btn-orange, .btn-green, .btn-red {
   margin-left: auto;
   margin-right: auto;
@@ -146,12 +156,13 @@ nav ul li a:hover {
 
 .btn-blue {
   width: 20vh;
-  background: linear-gradient(to top, rgb(250, 210, 161), rgb(247, 166, 37));
+  background: linear-gradient(to top, rgb(187, 194, 245), rgb(129, 125, 245));
 }
 .btn-blue:hover {
-  background: #ff9514;
+  background: #785af1;
 }
 
+/* FONT SIZE PAGINA 404 */
 .font-size-404, .font-size-404-20, .font-size-404-40, .font-size-404-80 {
   font-family: "Arvo", serif;
   text-align: justify;
@@ -173,6 +184,7 @@ nav ul li a:hover {
   font-size: 20px;
 }
 
+/* FOOTER */
 footer {
   position: relative;
   width: 100%;
@@ -191,6 +203,16 @@ footer {
 .box-footer {
   background: linear-gradient(#f8f9f9, #dd9a56);
   color: white;
+}
+
+.box-footer {
+  background: linear-gradient(#f8f9f9, #dd9a56);
+  color: rgb(249, 189, 166);
+}
+
+.img-footer {
+  height: 30px;
+  width: 30px;
 }
 
 .sci {
@@ -217,6 +239,7 @@ footer {
   background: rgb(230, 116, 116);
 }
 
+/* MENU QUICK LINKS */
 .quicklinks {
   position: relative;
   justify-content: left;
@@ -238,16 +261,8 @@ footer {
   background: rgb(230, 116, 116);
 }
 
-.box-footer {
-  background: linear-gradient(#f8f9f9, #dd9a56);
-  color: white;
-}
-
-.img-footer {
-  height: 30px;
-  width: 30px;
-}
-
+/* IMPORT FONTS */
+/* MANEJO DE FONTS */
 section.texto h1 {
   margin-bottom: 40px;
   font-size: 2.8em;
@@ -299,6 +314,7 @@ h3 {
   line-height: 3em;
 }
 
+/*PADDINGS*/
 .padding5 {
   padding-top: 5rem;
 }
@@ -333,9 +349,7 @@ h3 {
   padding-top: 0%;
 }
 
-/*======================
-    404 page
-=======================*/
+/* 404 page */
 .image-404 {
   background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
   height: 400px;

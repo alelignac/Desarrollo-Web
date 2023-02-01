@@ -1,3 +1,38 @@
+/* COMMON */
 $BoxColor:linear-gradient(#dd9a56, #f8f9f9);
 $HeaderHeight: 200px;
+
+
+/* 404 PAGE */
+$bgimage404: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+$height404: 400px;
+
+/* NAV */
+$bgcolorbot: rgb(249, 189, 166);
+$bgcolortext: lightslategray;
 $Color:rgb(230, 116, 116);
+
+/* BOTONES */
+$bgred:linear-gradient(to top, rgb(255, 185, 185), rgb(255, 130, 130));
+$bggreen:linear-gradient(to top, rgb(214, 251, 196), rgb(164, 249, 136));
+$bgorange:linear-gradient(to top, rgb(250, 210, 161), rgb(247, 166, 37));
+$bgblue:linear-gradient(to top, rgb(187, 194, 245), rgb(129, 125, 245));
+$bgredhover:rgb(244, 77, 77);
+$bggreenhover:rgb(79, 255, 20);
+$bgorangehover:#ff9514;
+$bgbluehover:#785af1;
+
+/* FOOTER */
+$bgfooter:linear-gradient( #f8f9f9,#dd9a56);
+$bgcolorfooter: white;
+$bgquickhover:rgb(230, 116, 116);
+$colorbox: white;
+$bgcolorfooter:rgb(249, 189, 166);
+$bgboxfooter:linear-gradient( #f8f9f9,#dd9a56);
+
+/* FONTS */
+$h3color: rgb(108, 61, 25);
+$pcolor: lightslategrey;
+$textjustify: justify;
+$textalign: center;
+$hcolor: rgb(249, 189, 166)

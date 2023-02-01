@@ -1,3 +1,4 @@
+/* BOTONES */
 .btn-more{
     margin-left: auto;
     margin-right: auto;
@@ -13,38 +14,38 @@
 
 .btn-red{
     @extend .btn-more;
-    background: linear-gradient(to top, rgb(255, 185, 185), rgb(255, 130, 130));
+    background: $bgred;
     width: 50%;
     &:hover{
-        background: rgb(244, 77, 77);
+        background: $bgredhover;
     }
 }
 .btn-green{
     @extend .btn-more;
-    background: linear-gradient(to top, rgb(214, 251, 196), rgb(164, 249, 136));
+    background: $bggreen;
     width: 50%;
 
     &:hover{
-        background: rgb(79, 255, 20);
+        background: $bggreenhover ;
     }
 }
 .btn-orange{
     @extend .btn-more;
-    background: linear-gradient(to top, rgb(250, 210, 161), rgb(247, 166, 37));
+    background: $bgorange ;
     &:hover{
-        background: #ff9514;
+        background: $bgorangehover;
     }
 }
 
 .btn-blue{
     @extend .btn-more;
     width: 20vh;
-    background: linear-gradient(to top, rgb(250, 210, 161), rgb(247, 166, 37));
+    background: $bgblue;
     &:hover{
-        background: #ff9514;
+        background: $bgbluehover;
     }
 }
-
+/* FONT SIZE PAGINA 404 */
 .font-size-404{
     font-family: 'Arvo', serif;
     text-align: justify;

@@ -1,8 +1,9 @@
+/* FOOTER */
 footer{
     position: relative;
     width: 100%;
     height: auto;
-    background-color: rgb(249, 189, 166);
+    background-color: $bgcolorfooter;
     text-align: center;
 }
 .container{
@@ -13,8 +14,18 @@ footer{
 }
 
 .box-footer{
-    background: linear-gradient( #f8f9f9,#dd9a56);  
-    color: white;
+    background: $bgboxfooter;  
+    color: $colorbox;
+}
+
+.box-footer {
+    background: $bgfooter;  
+    color: $bgcolorfooter;
+}
+
+.img-footer{
+    height: 30px;
+    width: 30px;
 }
 
 .sci{
@@ -40,7 +51,7 @@ footer{
         }
     }
 }
-
+/* MENU QUICK LINKS */
 .quicklinks{
     position: relative;
     justify-content: left;
@@ -55,17 +66,8 @@ footer{
             margin-bottom: 10px;
             display: grid;
             grid-gap: 10px;
-            &:hover{background:rgb(230, 116, 116)}
+            &:hover{background:$bgquickhover}
         }
     }
 }
 
-.box-footer {
-    background: linear-gradient( #f8f9f9,#dd9a56);  
-    color: white;
-}
-
-.img-footer{
-    height: 30px;
-    width: 30px;
-}

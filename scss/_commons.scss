@@ -1,3 +1,4 @@
+/* NORMALIZAR */
 *{
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -21,7 +22,7 @@ header{
 }
 
 .h-color{
-    color:rgb(249, 189, 166);
+    color:$hcolor;
     padding-top: 20px;
 }
 .d-flex{

@@ -1,5 +1,7 @@
+/* IMPORT FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto:wght@300&display=swap');
 
+/* MANEJO DE FONTS */
 section.texto h1{
     margin-bottom: 40px;
     font-size: 2.8em;
@@ -30,22 +32,22 @@ section.texto p{
 }
 
 .text-justify{
-    text-align: justify;
+    text-align: $textjustify;
 }
 
 .text-center{
-    text-align: center;
+    text-align: $textalign;
 }
 
 p{
-    color:lightslategrey;
+    color:$pcolor;
     padding-top: 25px;
     padding-bottom: 25px;
     line-height: 3em;
 }
 
 h3{
-    color:rgb(108, 61, 25);
+    color:$h3color;
     padding-bottom: 5px;
     line-height: 3em;
 }

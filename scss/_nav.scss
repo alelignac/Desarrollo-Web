@@ -1,3 +1,4 @@
+/* NAV */
 nav{
     padding: 10px 35px;
     display: flex;
@@ -20,11 +21,11 @@ nav{
         }
     }
 }
-
+/* BOTONERA */
 #botonera{
-    background-color: rgb(249, 189, 166);
+    background-color: $bgcolorbot;
     ul li a{
-        color:lightslategray;
+        color: $bgcolortext;
         font-size: 1.2em;
 		background-image: linear-gradient(currentColor, currentColor);
         background-position: 0% 99%;
@@ -33,7 +34,7 @@ nav{
         transition: background-size .4s;
         &:hover{
             color: $Color;
-            font-weight: 600;
+            font-weight: 2;
             background-size: 100% 2px;
         }
     }
